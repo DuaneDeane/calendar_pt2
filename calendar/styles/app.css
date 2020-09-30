@@ -1,0 +1,38 @@
+/* Flexbox */
+
+.container-fluid {
+    display: flex;
+}
+
+.section {
+    flex: 1;    
+}
+
+#btnImportant {
+    font-size: 20px;
+    color: green;
+    cursor: pointer;
+}
+
+#btnImportant.active {
+    color: #dc3545;
+}
+
+.control {
+    display: block;
+}
+
+.split {
+    height: 100%;
+    width: 50%;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    overflow-x: hidden;
+    padding-top: 20px;
+}
+
+.right {
+    right: 0;
+    background-color: tan;
+}
